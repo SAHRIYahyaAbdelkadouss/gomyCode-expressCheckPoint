@@ -1,31 +1,16 @@
 {
-  "name": "y",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "gomycode-expresscheckpoint",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SAHRIYahyaAbdelkadouss/gomyCode-expressCheckPoint.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SAHRIYahyaAbdelkadouss/gomyCode-expressCheckPoint/issues"
-  },
-  "homepage": "https://github.com/SAHRIYahyaAbdelkadouss/gomyCode-expressCheckPoint#readme",
   "dependencies": {
-    "@emotion/react": "^11.10.0",
-    "@emotion/styled": "^11.10.0",
-    "@mui/material": "^5.9.3",
-    "express": "^4.18.1",
-    "express-react-views": "^0.11.0",
-    "nodemon": "^2.0.19",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "responsive-navbar-react": "^1.2.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
   }
 }
